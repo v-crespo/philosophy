@@ -8,4 +8,3 @@ redirect_from:
 ---
 
 [under construction]
-ussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
