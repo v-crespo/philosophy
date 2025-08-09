@@ -22,7 +22,7 @@ repository               : "v-crespo/philosophy"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "images/foto_web.jpeg"
+  avatar           : "/images/foto_web.jpeg"
   name             : "Victor Crespo"
   bio              : "Philosophy PhD candidate"
   location         : "Durham, NC"
