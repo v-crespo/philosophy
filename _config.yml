@@ -24,8 +24,8 @@ author:
   # Biographic information
   avatar           : "profile.png"
   name             : "Victor Crespo"
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
+  bio              : "Philosophy PhD candidate"
+  location         : "Durham, NC"
   employer         : "Duke University"
   uri              : # URL
   email            : "v.crespo@duke.edu" 
@@ -33,7 +33,7 @@ author:
   # Academic websites
   academia         : # URL
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+  googlescholar    : "https://scholar.google.com/citations?user=DMqudMEAAAAJ&hl=es&oi=sra"
   impactstory      : # URL
   orcid            : "http://orcid.org/yourorcidurl"
   semantic         : # URL
