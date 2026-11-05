@@ -13,9 +13,9 @@ redirect_from:
   Lines like this one (between the arrows) are notes to you and never appear on the site.
 -->
 
-I am a PhD candidate in Philosophy at Duke University. I work mainly in [AREA, e.g. ethics and formal epistemology], with a particular focus on [ONE-PHRASE RESEARCH FOCUS].
+I am a fifth-year PhD candidate in Philosophy at Duke University. I work mainly in [AREA, e.g. ethics and formal epistemology], with a particular focus on [ONE-PHRASE RESEARCH FOCUS].
 
-**I am on the academic job market in [2026–27].** I expect to defend my dissertation in [MONTH YEAR].
+**I am on the academic job market in [2026–27].**
 
 Areas
 ======
@@ -37,13 +37,6 @@ Committee: [ADVISOR NAME] (chair), [MEMBER NAME], [MEMBER NAME], [MEMBER NAME]
 -->
 
 [A full dissertation summary]({{ site.baseurl }}/files/dissertation-summary.pdf) is available, and chapter drafts are available upon request.
-
-Elsewhere on this site
-======
-* [Research]({{ site.baseurl }}/publications/): publications, papers under review, and works in progress
-* [Teaching]({{ site.baseurl }}/teaching/): courses taught and teaching materials
-* [Talks]({{ site.baseurl }}/talks/): presentations and commentaries
-* [CV]({{ site.baseurl }}/cv/)
 
 Contact
 ======
