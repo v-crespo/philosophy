@@ -47,4 +47,4 @@ Elsewhere on this site
 
 Contact
 ======
-The best way to reach me is by email at [v.crespo@duke.edu](mailto:v.crespo@duke.edu).
+**Email:** [v.crespo@duke.edu](mailto:v.crespo@duke.edu)
