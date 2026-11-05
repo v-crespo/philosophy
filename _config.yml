@@ -11,8 +11,8 @@ locale                   : "en-US"
 site_theme               : "default"
 title                    : "Victor Crespo"
 title_separator          : "-"
-name                     : &name "Your Name"
-description              : &description "personal description"
+name                     : &name "Victor Crespo"
+description              : &description "Victor Crespo, PhD candidate in Philosophy at Duke University. [ONE LINE ON YOUR RESEARCH, e.g. Working on ethics and decision theory.]"
 url                      : "https://v-crespo.github.io"
 baseurl                  : "/philosophy"
 repository               : "v-crespo/philosophy"
@@ -25,7 +25,7 @@ author:
   # Biographic information
   avatar           : "foto_web.png"
   name             : "Victor Crespo"
-  bio              : "Philosophy PhD candidate"
+  bio              : "PhD Candidate in Philosophy"
   location         : "Durham, NC"
   employer         : "Duke University"
   uri              : # URL
@@ -36,7 +36,7 @@ author:
   arxiv            : # URL - Update with the correct link to your profile
   googlescholar    : "https://scholar.google.com/citations?user=DMqudMEAAAAJ&hl=es&oi=sra"
   impactstory      : # URL
-  orcid            : # URL
+  orcid            : # URL, e.g. "https://orcid.org/0000-0000-0000-0000"
   semantic         : # URL
   pubmed           : # URL
   researchgate     : # URL
@@ -77,13 +77,15 @@ author:
   zhihu            : # Username
 
 # Publication Category - The following the list of publication categories and their headings
+#   The order here is the order of the sections on the Research page.
+#   Each paper file in _publications/ picks one of these with its "category:" line.
 publication_category:
-  books:
-    title: 'Books'
-  manuscripts:
-    title: 'Journal Articles'    
-  conferences:
-    title: 'Conference Papers'
+  published:
+    title: 'Publications'
+  review:
+    title: 'Under Review'
+  progress:
+    title: 'Works in Progress'
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"

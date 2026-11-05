@@ -9,56 +9,68 @@ redirect_from:
 
 {% include base_path %}
 
+<!-- Put your CV in the "files" folder with exactly this name: cv.pdf -->
+**[Download my full CV (PDF)]({{ base_path }}/files/cv.pdf)** · Last updated [MONTH YEAR]
+
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* Ph.D. in Philosophy, Duke University, [YEAR] (expected)
+  * Dissertation: *[DISSERTATION TITLE]*
+  * Committee: [ADVISOR NAME] (chair), [MEMBER NAME], [MEMBER NAME]
+* [DEGREE, e.g. M.A. in Philosophy], [UNIVERSITY], [YEAR]
+* [DEGREE, e.g. B.A. in Philosophy], [UNIVERSITY], [YEAR]
 
-Work experience
+Areas
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* **Specialization:** [AOS 1], [AOS 2]
+* **Competence:** [AOC 1], [AOC 2], [AOC 3]
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
+Research
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
-
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
+<!-- This list fills in automatically from the papers in the _publications folder. -->
+{% for category in site.publication_category %}
+  {% assign papers = site.publications | where: "category", category[0] | reverse %}
+  {% if papers.size > 0 %}
+  <h3>{{ category[1].title }}</h3>
+  <ul>{% for post in papers %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
-Talks
+  {% endif %}
+{% endfor %}
+
+Talks and Commentaries
 ======
+<!-- This list fills in automatically from the _talks folder. -->
   <ul>{% for post in site.talks reversed %}
     {% include archive-single-talk-cv.html  %}
   {% endfor %}</ul>
-  
+
 Teaching
 ======
+<!-- This list fills in automatically from the _teaching folder. -->
   <ul>{% for post in site.teaching reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
-Service and leadership
+
+Awards and Fellowships
 ======
-* Currently signed in to 43 different slack teams
+* [NAME OF AWARD OR FELLOWSHIP], [INSTITUTION], [YEAR]
+* [NAME OF AWARD OR FELLOWSHIP], [INSTITUTION], [YEAR]
+
+Service
+======
+* Referee for [JOURNAL NAME]
+* [ROLE, e.g. Organizer], [EVENT OR WORKSHOP], [YEAR]
+* [ROLE, e.g. Graduate Student Representative], Duke University Department of Philosophy, [YEARS]
+
+Languages
+======
+* [LANGUAGE] ([native / fluent / reading knowledge])
+* [LANGUAGE] ([native / fluent / reading knowledge])
+
+References
+======
+* [REFEREE NAME], [TITLE], [UNIVERSITY], [EMAIL]
+* [REFEREE NAME], [TITLE], [UNIVERSITY], [EMAIL]
+* [REFEREE NAME], [TITLE], [UNIVERSITY], [EMAIL]
+* [REFEREE NAME] (teaching), [TITLE], [UNIVERSITY], [EMAIL]
