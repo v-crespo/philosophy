@@ -19,9 +19,9 @@ I am a PhD candidate in Philosophy at Duke University. I work mainly in [AREA, e
 
 Areas
 ======
-**Areas of Specialization:** [AOS 1], [AOS 2]
+**Areas of Specialization:** Philosophy of AI, Ethics
 
-**Areas of Competence:** [AOC 1], [AOC 2], [AOC 3]
+**Areas of Competence:** PPE, Decision Theory
 
 Dissertation
 ======

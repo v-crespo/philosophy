@@ -22,8 +22,8 @@ Education
 
 Areas
 ======
-* **Specialization:** [AOS 1], [AOS 2]
-* **Competence:** [AOC 1], [AOC 2], [AOC 3]
+* **Specialization:** Philosophy of AI, Ethics
+* **Competence:** PPE, Decision Theory
 
 Research
 ======
