@@ -13,9 +13,9 @@ redirect_from:
   Lines like this one (between the arrows) are notes to you and never appear on the site.
 -->
 
-I am a fifth-year PhD candidate in Philosophy at Duke University. I work mainly in [AREA, e.g. ethics and formal epistemology], with a particular focus on [ONE-PHRASE RESEARCH FOCUS].
+I am a fifth-year PhD candidate in Philosophy at Duke University. I work mainly in AI Ethics and Population-Level Bioethics.
 
-**I am on the academic job market in [2026–27].**
+**I am on the academic job market in 2026–27.**
 
 Areas
 ======
