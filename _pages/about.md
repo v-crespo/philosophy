@@ -13,7 +13,7 @@ redirect_from:
   Lines like this one (between the arrows) are notes to you and never appear on the site.
 -->
 
-I am a PhD candidate in Philosophy at [Duke University](https://philosophy.duke.edu/). I work mainly in [AREA, e.g. ethics and formal epistemology], with a particular focus on [ONE-PHRASE RESEARCH FOCUS]. My dissertation, *[DISSERTATION TITLE]*, argues that [ONE-SENTENCE MAIN THESIS].
+I am a PhD candidate in Philosophy at [Duke University](https://philosophy.duke.edu/). I work mainly in [AREA, e.g. ethics and formal epistemology], with a particular focus on [ONE-PHRASE RESEARCH FOCUS].
 
 **I am on the academic job market in [2026–27].** I expect to defend my dissertation in [MONTH YEAR].
 
