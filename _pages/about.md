@@ -26,7 +26,7 @@ Areas
 Dissertation
 ======
 ***[DISSERTATION TITLE]***  
-Committee: Ben Eva and Walter Sinnott-Armstrong (co-chairs), Reuben Stern, Matthew Adler (Duke Law)
+Committee: Benjamin Eva and Walter Sinnott-Armstrong (co-chairs), Reuben Stern, Matthew Adler (Duke Law)
 
 [DISSERTATION ABSTRACT, about 150–250 words. Say what problem you take up, why it matters, what you argue, and how the chapters fit together. Many search committees read only this paragraph, so make it the clearest thing on your website.]
 
