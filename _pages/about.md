@@ -36,8 +36,6 @@ Committee: [ADVISOR NAME] (chair), [MEMBER NAME], [MEMBER NAME], [MEMBER NAME]
 * **Chapter 3, "[TITLE]":** [one sentence]
 -->
 
-[A full dissertation summary]({{ site.baseurl }}/files/dissertation-summary.pdf) is available, and chapter drafts are available upon request.
-
 Contact
 ======
 **Email:** [v.crespo@duke.edu](mailto:v.crespo@duke.edu)
