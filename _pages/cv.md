@@ -16,7 +16,7 @@ Education
 ======
 * Ph.D. in Philosophy, Duke University, [YEAR] (expected)
   * Dissertation: *[DISSERTATION TITLE]*
-  * Committee: [ADVISOR NAME] (chair), [MEMBER NAME], [MEMBER NAME]
+  * Committee: Ben Eva and Walter Sinnott-Armstrong (co-chairs), Reuben Stern, Matthew Adler (Duke Law)
 * [DEGREE, e.g. M.A. in Philosophy], [UNIVERSITY], [YEAR]
 * [DEGREE, e.g. B.A. in Philosophy], [UNIVERSITY], [YEAR]
 
