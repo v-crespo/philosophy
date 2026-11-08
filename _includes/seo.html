@@ -9,9 +9,11 @@
 {% if page.title %}
   {% assign seo_title = page.title | append: " " | append: site.title_separator | append: " " | append: site.title %}
 {% endif %}
-
 {% if seo_title %}
   {% assign seo_title = seo_title | markdownify | strip_html | strip_newlines | escape_once %}
+{% endif %}
+{% if page.seo_title %}
+  {% assign seo_title = page.seo_title | escape_once %}
 {% endif %}
 
 {% if site.url %}
@@ -114,12 +116,17 @@
 <!-- Open Graph protocol data (https://ogp.me/), used by social media -->
 <meta property="og:locale" content="{{ site.locale | default: "en" }}">
 <meta property="og:site_name" content="{{ site.title }}"> 
+{% if page.seo_title %}
+<meta property="og:title" content="{{ page.seo_title | escape_once }}">
+{% else %}
 <meta property="og:title" content="{{ page.title | default: site.title | markdownify | strip_html | strip_newlines | escape_once }}">
+{% endif %}
 {% if page.date %}
   <meta property="og:type" content="article">
 {% endif %}
-{% if page.excerpt %}
-  <meta property="og:description" name="description" content="{{ seo_description }}">
+{% if seo_description %}
+  <meta name="description" content="{{ seo_description }}">
+  <meta property="og:description" content="{{ seo_description }}">
 {% elsif site.og_description %}
   <meta property="og:description" name="description" content="{{ site.og_description }}">
 {% endif %}

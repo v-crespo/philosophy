@@ -12,7 +12,7 @@ site_theme               : "default"
 title                    : "Victor Crespo"
 title_separator          : "-"
 name                     : &name "Victor Crespo"
-description              : &description "Victor Crespo, PhD candidate in Philosophy at Duke University. [ONE LINE ON YOUR RESEARCH, e.g. Working on ethics and decision theory.]"
+description              : &description "Victor Crespo is a PhD candidate in philosophy at Duke University working on AI ethics and PPE."
 url                      : "https://v-crespo.github.io"
 baseurl                  : "/philosophy"
 repository               : "v-crespo/philosophy"
@@ -121,7 +121,7 @@ staticman:
       options:
         format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
 atom_feed:
-  hide                   : false     # change to true to hide the RSS feed in the footer
+  hide                   : true      # change to true to hide the RSS feed in the footer
   path                   : # blank (default) uses feed.xml
 
 

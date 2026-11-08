@@ -2,6 +2,8 @@
 permalink: /
 title: "About"
 hide_title: true
+seo_title: "Victor Crespo | Philosophy, Duke University"
+description: "Victor Crespo is a PhD candidate in philosophy at Duke University working on AI ethics and PPE."
 author_profile: true
 redirect_from: 
   - /about/
