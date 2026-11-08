@@ -40,3 +40,9 @@
     "vendor/font-awesome/solid",
     "vendor/font-awesome/brands"
 ;
+/* Space between the sidebar name and the details below it (about one empty line) */
+.sidebar .author__name {
+  @include breakpoint($large) {
+    margin-bottom: 30px;
+  }
+}
