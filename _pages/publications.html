@@ -1,34 +1,35 @@
 ---
 layout: archive
 title: "Research"
+hide_title: true
 permalink: /publications/
 author_profile: true
 ---
 
-<p>I work on AI ethics and PPE. My research focuses on how decision-makers should make choices about AI that affect the lives of current and future generations. First, I study how institutions that use predictive algorithms, such as banks, courts and hospitals, should compare alternative algorithms when deciding which one to use. Second, I study how to make policy choices, in areas such as AI governance, that may affect the size and well-being of future populations.</p>
+<!--
+  This page is written by hand from the CV (Nov 2026). To add a paper, copy a <li> line.
+  "hide_title: true" above hides the "Research" heading; the browser tab still says "Research - Victor Crespo".
+-->
 
-{% include base_path %}
+<h2>Coauthored Publications</h2><hr />
+<ul>
+  <li>Jacewicz, N., <strong>Crespo, V.</strong>, and Fischer, B. (forthcoming 2027). “Pricing Suffering in Animals.” <em>Maryland Law Review</em>.</li>
+  <li>Aharoni, E., Fernandes, S., Brady, D. J., Alexander, C., Criner, M., Queen, K., Rando, J., Nahmias, E., and <strong>Crespo, V.</strong> (2024). “Attributions toward Artificial Agents in a Modified Moral Turing Test.” <em>Scientific Reports</em> 14: 8458.</li>
+  <li><strong>Crespo, V.</strong>, Rando, J., Keswani, V., Sinnott-Armstrong, W., and Eva, B. (2023). “Reevaluating COMPAS.” <em>NeurIPS 2023, Workshop: Algorithmic Fairness through the Lens of Time</em>.</li>
+</ul>
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
+<h2>Single-Authored Papers Under Review <small>(drafts available)</small></h2><hr />
+<ul>
+  <li>A paper on less discriminatory algorithms (R&amp;R)</li>
+  <li>A paper on a dilemma for leading statistical metrics of algorithmic fairness</li>
+</ul>
 
-
-
+<h2>Single-Authored Works in Progress <small>(drafts available)</small></h2><hr />
+<ul>
+  <li>A paper arguing that none of the three leading statistical metrics of algorithmic fairness is necessary for fairness or provides evidence of unfairness</li>
+  <li>A paper on predictive algorithms and social welfare</li>
+  <li>A paper arguing that prioritarian social welfare functions should not be bounded</li>
+  <li>A paper on population policy choices for bounded decision-makers</li>
+  <li>A paper on prioritarianism and fatality risk regulation</li>
+  <li>A paper on prioritarianism under severe uncertainty</li>
+</ul>
