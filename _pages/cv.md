@@ -10,5 +10,5 @@ redirect_from:
 {% include base_path %}
 
 <!-- Put your CV in the "files" folder with exactly this name: cv.pdf -->
-**[Download my full CV (PDF)]({{ base_path }}/files/cv.pdf)** · Last updated Nov 2026
+**[Download my CV (PDF)]({{ base_path }}/files/cv.pdf)** · Last updated Nov 2026
 
