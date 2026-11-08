@@ -14,15 +14,15 @@ redirect_from:
   "hide_title: true" above hides the "About" heading; the browser tab still says "About - Victor Crespo".
 -->
 
-I am a fifth-year PhD candidate in Philosophy at Duke University. I work mainly in AI Ethics and Population-Level Bioethics.
+I am a fifth-year PhD candidate in Philosophy at Duke University. I work on AI ethics and PPE. My research focuses on how decision-makers should make choices about AI that affect the lives of current and future generations. First, I study how institutions that use predictive algorithms, such as banks, courts and hospitals, should compare alternative algorithms when deciding which one to use. Second, I study how to make policy choices, in areas such as AI governance, that may affect the size and well-being of future populations.
 
-**I am on the academic job market in 2026–27.**
+**Dissertation Committee:** Benjamin Eva and Walter Sinnott-Armstrong (co-chairs), Reuben Stern, Matthew Adler (Duke Law)
+
+**I am on the job market in 2026–27.**
 
 **Areas of Specialization:** Philosophy of AI, Ethics
 
 **Areas of Competence:** PPE, Decision Theory
-
-**Dissertation Committee:** Benjamin Eva and Walter Sinnott-Armstrong (co-chairs), Reuben Stern, Matthew Adler (Duke Law)
 
 Contact
 ======

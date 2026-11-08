@@ -25,7 +25,7 @@ author:
   # Biographic information
   avatar           : "foto_web.png"
   name             : "Victor Crespo"
-  bio              : "PhD Candidate in Philosophy"
+  bio              : # short line under your name in the sidebar (blank = hidden)
   location         : "Durham, NC"
   employer         : "Duke University"
   uri              : # URL
